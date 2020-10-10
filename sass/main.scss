@@ -641,21 +641,36 @@ header {
     fill: $color-accent;
   }
 }
-.label-checkbox {
-  display: flex;
-  align-items: center;
-  margin-left: 52px;
-}
 
-.icon-checkbox {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  margin-right: 9px;
-  border: 2px solid #2a2a2a;
-  border-radius: 2px;
+// .checkbox-icon {
+//   .checkbox:checked + & {
+//     border-color: $color-accent;
+//     background-color: $color-accent;
+//     background-image: url(/img/galka.svg);
+//     background-size: contain;
+//     background-origin: border-box;
+//     transition: $transition;
+//   }
+// }
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 9px;
+    border: 2px solid #2a2a2a;
+    border-radius: 2px;
+  }
 
-  .checkbox:checked + & {
+  &-label {
+    display: flex;
+    align-items: center;
+    margin-left: 52px;
+  }
+  &:checked + .checkbox-icon {
     border-color: $color-accent;
     background-color: $color-accent;
     background-image: url(/img/galka.svg);
@@ -663,11 +678,6 @@ header {
     background-origin: border-box;
     transition: $transition;
   }
-}
-.checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 .contract {
   margin-left: 2px;
