@@ -1,0 +1,78 @@
+// Цвета
+$color-accent: #2196f3;
+$color-headline: #212121;
+$color-text: #757575;
+$color-team: #f5f4fa;
+$color-team-li: #ffffff;
+$color-icon: #afb1b8;
+$color-text-portfolio: #000000;
+$color-footer: #2f303a;
+$color-contact: #757575;
+$color-adress: #ffffff;
+$color-studio: #000000;
+$color-studio-footer: #ffffff;
+$color-item-information: #f5f4fa;
+$color-text-link: #ffffff;
+$color-icon-footer: #ffffff;
+$color-site: #ffffff;
+$color-ssite: #f5f4fa;
+$color-adress-item: #ffffff;
+$color-form-input: rgba(33, 33, 33, 0.2);
+$color-chekbox: #757575;
+$color-form-mail: rgba(255, 255, 255, 0.3);
+
+$bgc-icon-footer: rgba(255, 255, 255, 0.1);
+$bgc-label: rgba(47, 48, 58, 0.8);
+$bgc-product-text: rgba(33, 150, 243, 0.9);
+$bgc-backdrop: rgba(0, 0, 0, 0.2);
+$bgc-form-mail: #2f303a;
+// Градиент
+$linear-gradient: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+
+$shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+$shadow-add: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+$shadow-btn-sub: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+$border-item-photo: 0px 0px 4px 4px;
+$radius: 4px;
+$border: 1px solid;
+// Цвет иконок
+$fill-accent: #2196f3;
+
+$main-width: 1170px;
+$main-padding: 0 15px;
+$main-margin-left: auto;
+$main-margin-right: auto;
+
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// Шрифт
+$font-roboto: Roboto, sans-serif;
+$font-weight-500: 500;
+$font-weight-900: 900;
+$font-weight-bold: bold;
+$font-weight-norm: normal;
+
+$font-style-norm: normal;
+
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-20: 20px;
+$font-size-26: 26px;
+$font-size-36: 36px;
+$font-size-44: 44px;
+
+$line-height-14: 14px;
+$line-height-16: 16px;
+$line-height-23: 23px;
+$line-height-24: 24px;
+$line-height-28: 28px;
+$line-height-30: 30px;
+$line-height-31: 31px;
+$line-height-36: 36px;
+$line-height-42: 42px;
+$line-height-60: 60px;
