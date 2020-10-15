@@ -1,0 +1,53 @@
+.main-footer {
+  margin-top: 94px;
+}
+.adress-item {
+  margin-top: 20px;
+}
+.icon-footer {
+  fill: $color-icon-footer;
+  background-color: $bgc-icon-footer;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  transition: $transition;
+  &:hover {
+    fill: $color-team;
+    background-color: $color-accent;
+  }
+}
+.footer-li {
+  margin-right: 70px;
+}
+.footer-ul {
+  display: flex;
+}
+.text-footer {
+  font-style: $font-style-norm;
+  font-weight: $font-weight-norm;
+  font-size: $font-size-14;
+  line-height: $line-height-24;
+}
+.text-link {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: $color-text-link;
+  font-style: $font-style-norm;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-14;
+  line-height: $line-height-16;
+}
+.studio-footer {
+  color: $color-studio-footer;
+}
+.adress-item {
+  color: $color-adress-item;
+}
+.foooter {
+  display: flex;
+}
+.sub-section {
+  display: flex;
+  margin-left: 80px;
+  transform: translateY(45%);
+}
